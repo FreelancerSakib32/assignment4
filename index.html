@@ -20,14 +20,14 @@
           <div
             class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm"
           >
-            <p class="text-sm text-slate-500">Total</p>
+            <p class="text-sm text-gray-500">Total</p>
             <p id="total" class="mt-2 text-3xl font-bold text-blue-700">0</p>
           </div>
 
           <div
             class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm"
           >
-            <p class="text-sm text-slate-500">Interview</p>
+            <p class="text-sm text-gray-500">Interview</p>
             <p
               id="interviewCount"
               class="mt-2 text-3xl font-bold text-emerald-600"
@@ -37,9 +37,9 @@
           </div>
 
           <div
-            class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm"
+            class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm"
           >
-            <p class="text-sm text-slate-500">Rejected</p>
+            <p class="text-sm text-gray-500">Rejected</p>
             <p id="rejectedCount" class="mt-2 text-3xl font-bold text-red-500">
               0
             </p>
@@ -47,21 +47,21 @@
         </div>
       </header>
 
-      <hr class="my-8 border-slate-200" />
+      <hr class="my-8 border-gray-300" />
     </header>
 
     <main class="max-w-5xl mx-auto px-4 pb-16">
       <!-- Section Header -->
       <div class="flex items-center justify-between">
         <h2 class="text-lg font-semibold">Available Jobs</h2>
-        <p class="text-sm text-slate-500">
+        <p class="text-sm text-gray-500">
           <span id="jobsCountText">0</span> jobs
         </p>
       </div>
 
       <!-- Filters -->
       <div
-        class="mt-4 inline-flex rounded-lg bg-white border border-slate-200 p-1 shadow-sm"
+        class="mt-4 inline-flex rounded-lg bg-white border border-gray-200 p-1 shadow-sm"
       >
         <button
           id="all-filter-btn"
@@ -73,14 +73,14 @@
         <button
           id="interview-filter-btn"
           onclick="toggleStyle('interview-filter-btn')"
-          class="px-4 py-2 text-sm font-medium rounded-md text-slate-600"
+          class="px-4 py-2 text-sm font-medium rounded-md text-gray-600"
         >
           Interview
         </button>
         <button
           id="rejected-filter-btn"
           onclick="toggleStyle('rejected-filter-btn')"
-          class="px-4 py-2 text-sm font-medium rounded-md text-slate-600"
+          class="px-4 py-2 text-sm font-medium rounded-md text-gray-600"
         >
           Rejected
         </button>
@@ -97,7 +97,7 @@
         <!-- Empty state -->
         <div id="emptyState" class="hidden">
           <div
-            class="bg-white border border-slate-200 rounded-2xl p-16 shadow-sm text-center"
+            class="bg-white border border-gray-200 rounded-2xl p-16 shadow-sm text-center"
           >
             <div class="mx-auto w-16 h-16 rounded-2xl justify-center">
               <!-- No jobs icon -->
@@ -105,7 +105,7 @@
             </div>
 
             <h3 class="mt-6 text-xl font-semibold">No jobs available</h3>
-            <p class="mt-2 text-slate-500">
+            <p class="mt-2 text-gray-500">
               Check back soon for new job opportunities
             </p>
           </div>
