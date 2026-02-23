@@ -158,8 +158,8 @@ function renderCard(job) {
     </div>
 
     <div class="shrink-0">
-      <button class="btn-delete px-4 py-2 text-xs font-semibold rounded-md border border-slate-200 text-slate-600">
-        Delete
+      <button class="btn-delete px-4 bg-red-200 text-red-500 py-2 text-xs font-semibold rounded-md border border-slate-200 ">
+        Delete <i class="fa-regular fa-trash-can"></i>
       </button>
     </div>
   </div>
