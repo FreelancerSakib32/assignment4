@@ -151,7 +151,7 @@ function renderCard(job) {
         <button class="interview-btn px-4 py-2 text-xs font-semibold rounded-md border-2 border-green-500 text-green-500  ">
           INTERVIEW
         </button>
-        <button class="rejected-btn px-4 py-2 text-xs font-semibold rounded-md border border-red-400 text-red-400 ">
+        <button class="rejected-btn px-4 py-2 text-xs font-semibold rounded-md border-2 border-red-400 text-red-400 ">
           REJECTED
         </button>
       </div>
