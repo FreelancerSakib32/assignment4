@@ -63,6 +63,38 @@ let jobs = [
     status: "NOT APPLIED",
     desc: "We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.",
   },
+  {
+    id: crypto.randomUUID(),
+    company: "DataViz Solutions",
+    role: "Data Visualization Specialist",
+    meta: "Boston, MA • Full-time • $125,000 - $165,000",
+    status: "NOT APPLIED",
+    desc: "Create beautiful and functional user interfaces for our suite of products. Strong design skills and frontend development expertise required.",
+  },
+  {
+    id: crypto.randomUUID(),
+    company: "Innovation Labs",
+    role: "Data Visualization Specialist",
+    meta: "Boston, MA • Full-time • $125,000 - $165,000",
+    status: "NOT APPLIED",
+    desc: "Build enterprise applications with JavaScript and modern frameworks. We offer competitive compensation, health insurance, and professional development opportunities.",
+  },
+  {
+    id: crypto.randomUUID(),
+    company: "MegaCorp Solutions",
+    role: "Data Visualization Specialist",
+    meta: "Boston, MA • Full-time • $125,000 - $165,000",
+    status: "NOT APPLIED",
+    desc: "Join our fast-growing startup and work on our core platform. Experience with Node.js and React required. Great benefits and equity package included.",
+  },
+  {
+    id: crypto.randomUUID(),
+    company: "StartupXYZ ",
+    role: "Senior Frontend Developer",
+    meta: "Boston, MA • Full-time • $125,000 - $165,000",
+    status: "NOT APPLIED",
+    desc: "We are looking for an experienced Frontend Developer to build scalable web applications using React and TypeScript. You will work with a talented team on cutting-edge projects.",
+  },
 ];
 
 // ----- State -----
