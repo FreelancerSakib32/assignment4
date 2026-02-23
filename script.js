@@ -113,12 +113,12 @@ function setActiveButton(activeBtn) {
   const btns = [allFilterBtn, interviewFilterBtn, rejectedFilterBtn];
   btns.forEach((b) => {
     b.classList.remove("bg-blue-600", "text-white");
-    b.classList.add("text-slate-600");
+    b.classList.add("text-gray-600");
   });
 
   // active
   activeBtn.classList.add("bg-blue-600", "text-white");
-  activeBtn.classList.remove("text-slate-600");
+  activeBtn.classList.remove("text-gray-600");
 }
 
 function getStatusBadge(status) {
@@ -128,24 +128,24 @@ function getStatusBadge(status) {
   if (status === "REJECTED") {
     return `<span class="inline-flex items-center rounded-md bg-red-50 px-3 py-1 text-xs font-semibold text-red-700 border border-red-200">REJECTED</span>`;
   }
-  return `<span class="inline-flex items-center rounded-md bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700 border border-slate-200">NOT APPLIED</span>`;
+  return `<span class="inline-flex items-center rounded-md bg-gray-100 px-3 py-1 text-xs font-semibold text-slate-700 border border-slate-200">NOT APPLIED</span>`;
 }
 
 function renderCard(job) {
   const statusBadge = getStatusBadge(job.status);
 
   return `
-  <div class="card bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex justify-between gap-6" data-id="${job.id}">
+  <div class="card bg-white border border-gray-200 rounded-2xl p-6 shadow-sm flex justify-between gap-6" data-id="${job.id}">
     <div class="space-y-4">
       <div>
         <p class="company text-lg font-semibold">${job.company}</p>
-        <p class="role text-sm text-slate-600">${job.role}</p>
-        <p class="meta mt-2 text-xs text-slate-500">${job.meta}</p>
+        <p class="role text-sm text-gray-600">${job.role}</p>
+        <p class="meta mt-2 text-xs text-gray-500">${job.meta}</p>
       </div>
 
       <div class="status">${statusBadge}</div>
 
-      <p class="desc text-sm text-slate-600 leading-relaxed max-w-2xl">${job.desc}</p>
+      <p class="desc text-sm text-gray-600 leading-relaxed max-w-2xl">${job.desc}</p>
 
       <div class="flex gap-3">
         <button class="interview-btn px-4 py-2 text-xs font-semibold rounded-md border-2 border-green-500 text-green-500  ">
